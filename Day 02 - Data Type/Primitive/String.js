@@ -5,7 +5,7 @@ let language = "JavaScript"
 
 //String Concatenation
 let fullName = fName + space + lName
-console.log(fullname) // Sahil Hirdhani
+console.log(fullName) // Sahil Hirdhani
 
 /* Escape Sequence
 \n: new line
@@ -36,7 +36,8 @@ console.log(fName[fName.length-1]) //'l' to access last index of the string
 
 //3. toUpperCase()
 
-console.log(fName.toUpperCase()) // 'SAHIL' console.log(lName.toUpperCase()) // 'HIRDHANI'
+console.log(fName.toUpperCase()) // 'SAHIL'
+console.log(lName.toUpperCase()) // 'HIRDHANI'
 
 
 //4. toLowerCase()
@@ -78,13 +79,14 @@ console.log(str.includes('fox')) // true
 
 
 //10. replace()
+
 str = 'The quick brown fox jumps over the lazy dog'
 
 console.log(str.replace('brown','red')) // 'The quick red fox jumps over the lazy dog'
 
 console.log(str) // 'The quick brown fox jumps over the lazy dog' it does not replace permanently for that
 
-str = str.replace(brown','red')
+str = str.replace('brown','red')
 console.log(str) //'The quick red fox jumps over the lazy dog'
 
 
@@ -111,6 +113,7 @@ console.log(str.lastIndexOf('he')) //32 Takes a substring and if the substring e
 
 
 //15. concat()
+
 str = "Apple"
 console.log(str.concat("Boy","cat")) //AppleBoycat
 console.log("pi".concat("rate")) //pirate
@@ -124,6 +127,7 @@ console.log(str.startsWith('The')) //true
 
 
 //17. endsWith()
+
 str = 'The quick brown fox jumps over the lazy dog'
 console.log(str.endsWith('dog')) //true
 console.log(str.endsWith("Dog")) //false

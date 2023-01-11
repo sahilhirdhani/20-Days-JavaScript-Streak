@@ -2,7 +2,7 @@ let nums = [1, 2, 3]
 nums[0] = 10
 console.log(nums) // [10, 2, 3]
 
-let nums = [1, 2, 3]
+
 let numbers = [1, 2, 3]
 console.log(nums == numbers) // false
 
@@ -17,7 +17,7 @@ let user2 = {
   role: 'Student'
 }
 
-console.log(userOne == userTwo) // false
+console.log(user1 == user2) // false
 // These are false because we don't compare non-primitive data-types as the are compared by refrence rather than the values
 
 let n = nums

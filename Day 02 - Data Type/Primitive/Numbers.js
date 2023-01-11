@@ -12,7 +12,7 @@ const pi = Math.PI
 console.log(g,pi) //9.8 3.141592653589793
 
 console.log(Math.round(pi)) // round off to 3
-console,log(Math.round(g)) // round off to 10
+console.log(Math.round(g)) // round off to 10
 
 console.log(Math.floor(pi)) // round down to 3
 console.log(Math.floor(g)) // round down to 9
@@ -38,7 +38,7 @@ console.log(Math.pow(3, 2)) // 9
 
 //Log(return natural log)
 console.log(Math.log(2)) // 0.6931471805599453
-console.log(Math.log(Math.E))) // 1
+console.log(Math.log(Math.E)) // 1
 
 //Trigno
 console.log(Math.sin(0)) // 0
