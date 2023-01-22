@@ -1,0 +1,1 @@
+console.clear() // clears the console

@@ -1,0 +1,1 @@
+console.info("Today's Date is: 02 January 2023")
